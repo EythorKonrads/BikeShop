@@ -1,0 +1,162 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+html {
+  min-height: 100%;
+  position: relative;
+  height: 100%;
+  overflow-x: hidden; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+  color: #00467F; }
+
+.hdln--large {
+  font-family: "Raleway", sans-serif;
+  font-size: 162px;
+  font-weight: 900;
+  line-height: 1.25;
+  text-transform: uppercase;
+  color: #00467F; }
+
+.hdln--medium {
+  font-family: "Raleway", sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 1.25; }
+
+.hdln--small {
+  font-family: "Raleway", sans-serif;
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 1.25; }
+
+.hdln--smaller {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 1.25;
+  margin-top: 8px; }
+
+.hdln--date {
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  color: #949494;
+  font-weight: bold;
+  margin-bottom: 0;
+  text-transform: uppercase; }
+
+.hdln--nav {
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 15px;
+  color: #00467F;
+  text-transform: uppercase; }
+
+.hdln--menu {
+  font-family: "Raleway", sans-serif;
+  font-size: 21px;
+  line-height: 1.3;
+  font-weight: 500;
+  color: #00467F; }
+
+@font-face {
+  font-family: 'Halant';
+  src: url("../fonts/halant/Halant-Bold.ttf") format("truetype");
+  font-weight: bold; }
+
+@font-face {
+  font-family: 'Halant';
+  src: url("../fonts/halant/Halant-Regular.ttf") format("truetype");
+  font-weight: normal; }
+
+@font-face {
+  font-family: 'Raleway';
+  src: url("../fonts/raleway/Raleway-Light.ttf") format("truetype");
+  font-weight: 300; }
+
+@font-face {
+  font-family: 'Raleway';
+  src: url("../fonts/raleway/Raleway-Regular.ttf") format("truetype");
+  font-weight: normal; }
+
+@font-face {
+  font-family: 'Raleway';
+  src: url("../fonts/raleway/Raleway-Medium.ttf") format("truetype");
+  font-weight: 500; }
+
+@font-face {
+  font-family: 'Raleway';
+  src: url("../fonts/raleway/Raleway-Bold.ttf") format("truetype");
+  font-weight: bold; }
+
+@font-face {
+  font-family: 'Raleway';
+  src: url("../fonts/raleway/Raleway-Black.ttf") format("truetype");
+  font-weight: 900; }
+
+.navigation {
+  width: 100%;
+  height: 50px;
+  background-color: #272E33;
+  color: white; }
+
+.card-text {
+  margin-bottom: 15px; }
+
+.jumbo1 {
+  background-image: url("../images/home_showcase_banner_1.jpg");
+  height: 400px; }
+
+.jumbo-hedline,
+.jumbo-paragraf {
+  color: white; }
+
+.jumbo-hedline {
+  font-weight: 600; }
