@@ -160,3 +160,9 @@ h6 {
 
 .jumbo-hedline {
   font-weight: 600; }
+
+.form-container {
+  max-width: 600px;
+  display: flex; }
+  .form-container form {
+    justify-content: center; }
